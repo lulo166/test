@@ -1,4 +1,4 @@
-# tab est une liste, elt est un élément de tab, cette partie sert a déclarer les variables qui sont dans la liste.
+# tab est une liste, elt est un élément de tab, cette partie sert a déclarer les variables qui sont dans la liste. il faut les mettre dans l'ordre de l'assert.
 
 def recherche(elt,tab): 
     val = -1
