@@ -7,5 +7,9 @@ def maxliste(liste):
             max_val = liste[i]
     return max_val
 
+def maxliste2(liste): # peut continuer l'ex en utilisant sorted(liste) pour trier la liste.
+    max_val = 0 
+    sorted(liste)
+
 assert maxliste([98, 12, 104, 23, 131, 9]) == 131
 assert maxliste([-27, 24, -3, 15]) == 24
