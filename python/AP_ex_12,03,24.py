@@ -1,4 +1,3 @@
-def maxliste():
 #la première ligne de la fonction montre les parametres globaux utilisés dans la fonction.
 def maxliste(liste):
     #liste = [] cette ligne est contre productive car elle change la liste en une liste vide.
