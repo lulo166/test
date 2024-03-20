@@ -10,3 +10,13 @@ def enumere(tab):
 assert enumere([1, 2, 3]) == {1: [0], 2: [1], 3: [2]}
 assert enumere([]) == {}
 assert enumere([1, 1, 2, 3, 2, 1]) == {1: [0, 1, 5], 2: [2, 4], 3: [3]}
+
+# code alternatif
+# def enumere(tab):
+#     d = {}
+#     for i,j in enumerate(tab): # enumerate est un fonction built-in 
+#         if j in d:
+#             d[j].append(i)
+#         else:
+#             d[j] = [i]
+#     return d
