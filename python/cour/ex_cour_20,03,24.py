@@ -1,5 +1,5 @@
 def enumere(tab):
-    d = {}
+    d = {} # creation du dictionnaire
     for i in range (len(tab)):
         if tab[i] in d: # if the value is already in the dictionary
             d[tab[i]].append(i) # append si la valeur est deja dans le dictionnaire.
