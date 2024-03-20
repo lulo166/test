@@ -14,7 +14,7 @@ assert enumere([1, 1, 2, 3, 2, 1]) == {1: [0, 1, 5], 2: [2, 4], 3: [3]}
 # code alternatif
 # def enumere(tab):
 #     d = {}
-#     for i,j in enumerate(tab): # enumerate est un fonction built-in 
+#     for i,j in enumerate(tab): # enumerate est un fonction built-in qui retourne un tuple (index, valeur). i, j est un tuple
 #         if j in d:
 #             d[j].append(i)
 #         else:
