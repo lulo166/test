@@ -1,2 +1,2 @@
 # Test
-this is a testing ground to do probably some fun stuff and maybe break things.
+this is a testing ground and exercice repository.
