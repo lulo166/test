@@ -1,9 +1,9 @@
 def fusion(r1, r2):
   r0 = []
   for i in range(len(r1)):
-    r0.append(r1)
+    r0.append(r1[i])
   for i in range(len(r2)):
-    r0.append(r2)
+    r0.append(r2[i])
   resultat = []
   for i in range(len(r1)+len(r2)):
     plus_petit = r0[0]
@@ -15,3 +15,5 @@ def fusion(r1, r2):
     resultat.append(plus_petit)
     del r0[id]
   return resultat
+
+print(fusion([1, 3, 5], [2, 4, 6]))
