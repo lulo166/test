@@ -52,4 +52,4 @@ def itineraires_court(G,dep,arr):
 
 #16) INSERT INTO ville VALUES(8, 'Toulouse', 31, 471941, 118);
 
-#16) SELECT sport.nom FROM sport JOIN ville ON ville.id = sport.id_ville WHERE sport.type = 'mur' d'escalade AND WHERE ville.nom = 'Annecy';
+#16) SELECT sport.nom FROM sport JOIN ville ON ville.id = sport.id_ville WHERE sport.type = 'mur d'escalade' AND WHERE ville.nom = 'Annecy';
