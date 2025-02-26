@@ -65,16 +65,18 @@ Q4 = 'fait'
 Q5 = 'fait'
 #1) On dispose de r-1 oeufs, et il reste i-1 étages à tester.
 
-#2) On dispose de r-1 oeufs, et il reste n-i étages à tester.
+#2) On dispose de r oeufs, et il reste n-i étages à tester.
 
 #3) Non car si l'oeuf ne s'est pas cassé à l'étage i, 
 # il ne se cassera pas à l'étage i-1 car c'est un étage plus proche 
 # du sol que l'étage i, même chose pour i-2, et etc...
-# On dispose de r-1 oeufs, et il reste n-i étages à tester, 
+# On dispose de r oeufs, et il reste n-i étages à tester, 
 # donc les étages i+1, i+2, etc...
 
 Q6 = 'a faire'
-#
+# on sait que L(10,2) = 6, en utilisant la technique de la question 4
+# si on utilise l'equation, on a 
+# L(10,2) = 1 + min1 ()
 
 
 
